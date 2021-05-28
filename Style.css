@@ -46,3 +46,6 @@ p{
 body{
     background-color: #708090;
 }
+footer{
+    display: inline-block;
+}
