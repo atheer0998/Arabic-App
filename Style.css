@@ -1,57 +1,66 @@
-.container{
-    max-width: 900px;
-    margin: 30px auto;
-    text-align: center;
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  text-align: center;
 }
-div nav{
+/* div nav{
     background-color: #2F4F4F;
     text-align: center;
+} */
+
+h5 {
+  color: #2f4f4f;
+  text-align: right;
+  font: bold;
+}
+.row a:hover {
+  color: #2f4f4f;
+}
+p {
+  text-align: center;
+}
+.col {
+  /* /max-width: 15rem; */
+  /* border-style: solid; 
+     background-color: white; 
+     width: 200px;
+    height: 520px; 
+    padding: 20px 15px; 
+     margin-bottom: 15px; 
+     float: left;  */
+}
+.card-img-top {
+  max-width: 15rem;
+  max-height: 15rem;
+  margin: 30px auto;
+  /* display: block; 
+      margin-left: auto; 
+      margin-right: auto;  */
+  width: 40%;
+  border-radius: 50%;
 }
 
-
-h5{
-    color:#2F4F4F;
-    text-align: right;
-    font: bold;
+body {
+  background-color: #2f4f4f;
 }
-.row a:hover{
-    color:#2F4F4F;
-   
-}
-p{
-    text-align: center;
-}
-.col{
-
-    max-width: 15rem;
-    /* border-style: solid; */
-    /* background-color: white; */
-    width: 200px;
-    height: 520px;
-    /* padding: 20px 15px; */
-    /* margin-bottom: 15px; */
-    /* float: left; */
- 
- 
-   
-}
-.card-img-top{
-    max-width: 15rem;
-     max-height: 15rem;
-     margin: 30px auto;
-     /* display: block; */
-     margin-left: auto;
-     margin-right: auto;
-     width: 50%;
-    
-}
-body{
-    background-color: #2F4F4F;
-}
-footer{
-    display: inline-block;
+footer {
+  /* display: inline-block; */
+  font-size: 20px;
 }
 footer a {
-    color: #FFFAF0;
-    text-decoration: none;
+  color: #fffaf0;
+  text-decoration: none;
+}
+.card {
+  border-radius: 25px;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 8px 0 #e7fcfc(255, 255, 255, 0.822),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+nav ~ p {
+  margin-bottom: 30px;
+  color: #fffaf0;
+}
+nav {
+  margin-bottom: 20px;
 }
