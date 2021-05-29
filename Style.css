@@ -46,11 +46,13 @@ body {
 footer {
   /* display: inline-block; */
   font-size: 20px;
+  color: #e7fcfc;
 }
 footer a {
   color: #fffaf0;
   text-decoration: none;
 }
+
 .card {
   border-radius: 25px;
   margin-bottom: 50px;
@@ -63,4 +65,8 @@ nav ~ p {
 }
 nav {
   margin-bottom: 20px;
+}
+.card-title{
+  text-align: center;
+  font: bolder;
 }
